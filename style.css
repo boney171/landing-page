@@ -2,7 +2,7 @@
 body {
     display: flex;
     flex-direction: column;
-    height: 1024px;
+    height: 1500px;
     margin: 0;
     overflow-x: scroll;
     overflow-y: scroll;
@@ -59,17 +59,19 @@ button {
     color: white;
 }
 .left {
-    width: 400px;
+    width: 600px;
     height: auto;
     padding-top: 30px;
     padding-bottom: 30px;
     margin-left: 58px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 .right { 
     width: 250px;
     height: 220px;
     border: none;
-    margin-right: 100px;
+    margin-right: 80px;
     background: #57585a;
     margin-top: 50px;
     margin-bottom: 28px;
@@ -170,8 +172,9 @@ p4 {
 .quote {
     background-color: #E5E7EB;
     margin-top: 80px;
-    height: 380px;
+    height: 200px;
     flex: 1 1 auto;
+  
 }
 
 .word {
@@ -181,13 +184,14 @@ p4 {
      align-items: center;
      align-self: center;
      padding-bottom: 60px;
-     padding-top: 20px;
+     padding-top: 65px;
+
 }
 
 .q1 {
     width: 800px;
     height: 100px;
-    margin-top: 70px;
+    margin-right: -100px;
 }
 
 .word p{
@@ -196,7 +200,55 @@ p4 {
 }
 
 .q2 {
-    margin-right: -420px;
+    margin-right: -370px;
     font-weight: 700;
+    margin-top: -40px;
 }
 
+/* Third part of the  page */
+.sign {
+    display: flex;
+   flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.sign .container {
+    background-color: #458afa;
+  align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 750px;
+    border-radius: 2%;
+}
+
+.container-info {
+    padding-left: 8%;
+}
+
+.container button {
+    margin-left: 80px;
+    border: 2px solid white;
+}
+
+.footer {
+    background: #1F2937;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+   
+}
+button {
+    color: #ffffff;
+}
+
+.footer div{
+    align-self: center;
+}
