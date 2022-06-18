@@ -33,13 +33,18 @@ ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 20px;
     color:rgba(255, 255, 255, 0.493);
+    width: 750px;
+    padding-left: 0;
+    padding-right: 0;
+    align-self: center;
 }
 .one {
     font-weight: 700;
     color: white;
-    margin-left: 20px;
+    margin-left: 0px;
 }
 .three {
     margin-right: 80px;
