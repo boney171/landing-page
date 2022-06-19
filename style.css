@@ -27,6 +27,7 @@ a {
     margin: none;
     padding: 0;
     flex: 1 1 auto;
+    height: 15%;
 }
 ul {
     margin-left: 0;
@@ -35,10 +36,11 @@ ul {
     flex-direction: row;
     gap: 20px;
     color:rgba(255, 255, 255, 0.493);
-    width: 800px;
+    width: 78%;
     padding-left: 0;
     padding-right: 0;
     align-self: center;
+    justify-content: center;
 }
 .one {
     font-weight: 700;
@@ -51,8 +53,7 @@ ul {
 .info {
     display: flex;
     flex-direction: row;
-    gap: 20px;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 button {
@@ -63,13 +64,15 @@ button {
     color: white;
 }
 .left {
-    width: 600px;
+    width: 450px;
     height: auto;
     padding-top: 30px;
     padding-bottom: 30px;
     margin-left: 58px;
     font-size: 18px;
     color: #E5E7EB;
+    padding-right: 10px;
+
 }
 .right { 
     width: 250px;
@@ -83,6 +86,7 @@ button {
     justify-content: center;
     align-items: center;
     border-radius: 10%;
+    border: 1px solid black;
 }
 
 
@@ -93,7 +97,7 @@ button {
     flex-direction: column;
     align-items: center;
     flex: 1 1 auto;
-    height: 100px;
+    height: 4%;
 }
 h3 {
     align-self: center;
@@ -177,7 +181,7 @@ p4 {
 .quote {
     background-color: #E5E7EB;
     margin-top: 80px;
-    height: 200px;
+    height: 8%;
     flex: 1 1 auto;
   
 }
@@ -217,7 +221,7 @@ p4 {
     justify-content: center;
     align-items: center;
     color: white;
-
+    height: 4%;
 }
 
 .sign .container {
@@ -248,7 +252,7 @@ p4 {
     padding: 20px;
     display: flex;
     justify-content: center;
-   
+   height: 2%;
 }
 button {
     color: #ffffff;
